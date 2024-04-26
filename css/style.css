@@ -18,7 +18,13 @@ h1{
 .parent{
     display: grid;
     text-align: center;
-
+    border: 20px double white;
+    border-radius: 10px;
+    width: fit-content;
+    height: 400px;
+    margin-inline: auto;
+    margin-block: 50px;
+padding-bottom: 10px;
 
 }
 .child {
@@ -26,12 +32,27 @@ h1{
     padding: 25px;
     color: #505050;
     background-color: rgb(255, 255, 255);
+    border: 2px double red;
+    border-radius: 10px;
 }
 
 .parent .row {
     width:100%;
     margin: 10px 0 0 0;
-    height: 60px;
 
 
+
+}
+
+.tab{width: 105px;}
+
+.caps, .enter {
+    width: 119px;
+}
+.shift {
+    width: 148px;
+}
+
+.space {
+    width: 480px;
 }
