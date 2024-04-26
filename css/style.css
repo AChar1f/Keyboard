@@ -24,7 +24,6 @@ h1{
     height: 400px;
     margin-inline: auto;
     margin-block: 50px;
-padding-bottom: 10px;
 
 }
 .child {
@@ -34,16 +33,19 @@ padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
     border: 2px double red;
     border-radius: 10px;
+
+    &:hover{background-color: rosybrown;}
 }
 
 .parent .row {
     width:100%;
     margin: 10px 0 0 0;
 
-
-
 }
 
+.parent{
+    padding: 10px;
+}
 .tab{width: 105px;}
 
 .caps, .enter {
@@ -54,5 +56,16 @@ padding-bottom: 10px;
 }
 
 .space {
-    width: 480px;
+    width: 450px;
 }
+
+.backtick{
+        width: 20px;
+        margin-left: 2px;
+}
+
+.control{
+        width:90px;
+}
+
+
